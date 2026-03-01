@@ -1,0 +1,17 @@
+{
+  "name": "espn-api-discovery",
+  "version": "1.0.0",
+  "description": "Systematic discovery toolkit for the ESPN Fantasy Football API",
+  "type": "module",
+  "scripts": {
+    "baseline": "node src/discovery/baseline.js",
+    "views": "node src/discovery/views.js",
+    "filters": "node src/discovery/filters.js",
+    "endpoints": "node src/discovery/endpoints.js",
+    "schemas": "node src/discovery/schemas.js",
+    "history": "node src/discovery/history.js"
+  },
+  "dependencies": {
+    "dotenv": "^16.4.5"
+  }
+}
