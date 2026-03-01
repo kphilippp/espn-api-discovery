@@ -4,6 +4,8 @@
   "description": "Systematic discovery toolkit for the ESPN Fantasy Football API",
   "type": "module",
   "scripts": {
+    "discover": "node run-all.js",
+    "guide": "node src/report/generate-guide.js",
     "baseline": "node src/discovery/baseline.js",
     "views": "node src/discovery/views.js",
     "filters": "node src/discovery/filters.js",

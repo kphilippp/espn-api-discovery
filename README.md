@@ -71,6 +71,26 @@ REQUEST_DELAY_MS=300
 
 ---
 
+## Usage
+
+### Run everything at once
+
+```bash
+npm run discover
+```
+
+Runs all 6 discovery scripts in sequence and streams their output live. Takes 5–20 minutes depending on your `REQUEST_DELAY_MS` setting. All results are saved to `results/`.
+
+### Generate the API guide
+
+```bash
+npm run guide
+```
+
+Reads all `results/` JSON and synthesizes a comprehensive `ESPN-API-GUIDE.md` at the project root. Run this after `discover` completes. The guide documents every working endpoint, view parameter, filter key, field schema, and historical data boundary found.
+
+---
+
 ## Scripts
 
 ### 1. Baseline Mapper
